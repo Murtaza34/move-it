@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100svh;
+}
+
 .carousel-item {
   height: 700px;
 }
@@ -6,4 +11,37 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #8064a2 !important;
+}
+
+.gradient-row-up {
+  background: linear-gradient(to top, #e7e7e7, #ffffff);
+  height: 100px; 
+  margin: 0;
+  padding: 0;
+}
+
+/* .gradient-row-down {
+  background: linear-gradient(to bottom, #e7e7e7, #ffffff);
+  height: 70px; 
+  margin: 0;
+  padding: 0;
+} */
+
+footer {
+  background-color: #646464;
+}
+
+footer .nav-item {
+  color: #c7c7c7 !important;
+}
+
+footer .copy-right {
+  color: #c7c7c7 !important;
 }
