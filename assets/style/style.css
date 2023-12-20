@@ -1,6 +1,9 @@
 html,
 body {
   height: 100svh;
+  background-color: #fafafa;
+  font-family: 'Mulish', sans-serif;
+  line-height: 1.4;
 }
 
 .carousel-item {
@@ -19,20 +22,6 @@ body {
 .btn-primary:visited {
   background-color: #8064a2 !important;
 }
-
-.gradient-row-up {
-  background: linear-gradient(to top, #e7e7e7, #ffffff);
-  height: 100px; 
-  margin: 0;
-  padding: 0;
-}
-
-/* .gradient-row-down {
-  background: linear-gradient(to bottom, #e7e7e7, #ffffff);
-  height: 70px; 
-  margin: 0;
-  padding: 0;
-} */
 
 footer {
   background-color: #646464;
